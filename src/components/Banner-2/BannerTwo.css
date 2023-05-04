@@ -1,0 +1,45 @@
+.secondBanner {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+.whatappTextContainer {
+  display: flex;
+  width: 45%;
+  padding-left: 3%;
+}
+.whatappTextContainerOne {
+  width: 55%;
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  justify-content: center;
+}
+.whatappText {
+  font-weight: 700;
+  font-size: 3rem;
+  color: red;
+}
+.whatappTextOne {
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+  padding: 0 1% 0 1%;
+}
+.phoneNum {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+.phoneNumberConatiner {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+min-height: 5rem;
+  background: linear-gradient(92.93deg, #fc0003 14.07%, #c3073f 107.08%);
+  border-radius: 12px;
+}

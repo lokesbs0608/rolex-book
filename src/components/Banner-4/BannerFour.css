@@ -1,0 +1,168 @@
+.fourthMainContainer {
+  background-image: url("../../Assets/Roleximage/redBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80rem;
+}
+
+.partnerTitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 5rem;
+  padding-top: 5%;
+  text-align: center;
+  margin-top: 0;
+  color: #000;
+}
+
+.partnerTitleOne {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 5rem;
+  color: white;
+  margin-top: 0;
+}
+
+.innerDiveOne {
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainCardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.morePartnerText {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.cardItem {
+  background: #17252a;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 3%;
+  width: 15rem;
+  border: 2px solid #17252a;
+  padding: 1rem;
+  padding: 2rem 0 2rem 0;
+}
+
+
+
+.cardItemOne {
+  border-radius: 20px;
+  border: 2px solid #17252a;
+  background: #17252a;
+  display: none;
+}
+
+.cardGrid {
+  /* position: absolute; */
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  column-gap: 10%;
+  margin-bottom: 8%;
+  margin-bottom: 8%;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.innerDiv {
+  display: flex;
+  justify-content: center;
+  margin: 4% 0 4% 0;
+}
+
+.powerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playNowContainer {
+  display: flex;
+  align-items: center;
+  min-height: 5rem;
+  border-radius: 12px;
+  background: linear-gradient(92.93deg, #fc0003 14.07%, #c3073f 107.08%);
+  justify-content: center;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.powerContainerOne,
+.playNowDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.powerText {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  line-height: 34px;
+  color: white;
+  margin-bottom: 5px;
+  letter-spacing: 0.01em;
+}
+
+.rolexTextOne {
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 28px;
+  background: -webkit-linear-gradient(120.8deg,
+      rgba(247, 145, 1, 0.8526) 29.41%,
+      rgba(247, 247, 247, 0.951634) 43.55%,
+      #d17109 68.52%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fourthMainContainer {
+  position: relative;
+}
+
+.ourCardConatiner,
+.ourBoardConatiner {
+  position: absolute;
+}
+
+.ourBoardConatiner {
+  right: 0;
+  top: 10%;
+}
+
+.ourCardConatiner {
+  top: 18%;
+  left: 0%;
+}
+
+.card_container {
+  background-color: #17252a;
+  border-radius: 20px;
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 30rem;
+
+}
+
+.card_container:last-child {
+  align-self: flex-end;
+}

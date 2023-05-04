@@ -1,0 +1,95 @@
+.thirdMainCantainer {
+  /* display: flex; */
+  position: relative;
+  width: 100%;
+}
+.thirdMainImgCantainer {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+}
+.phoneNumOne {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+.gifContainer {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+.textContainer {
+  width: 55%;
+  z-index: 100;
+}
+.innerTextContent {
+  width: 70%;
+  padding-left: 3%;
+}
+.mainSideCard {
+  height: 450px;
+}
+.phoneNumberConatinerOne {
+  width: 70%;
+  margin-bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background: linear-gradient(92.93deg, #fc0003 14.07%, #c3073f 107.08%);
+  border-radius: 12px;
+}
+.getIdtext {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  line-height: 38px;
+  color: white;
+  text-shadow: -2px 0px 0px #ff0000;
+}
+.demoContainerOne {
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  box-shadow: 3px 0px 8px #ff0000;
+  border: 2px solid #ff0000;
+}
+.welcomeContent {
+  font-weight: 700;
+  font-size: 1.54rem;
+  line-height: 34px;
+  color: white;
+  letter-spacing: 0.01em;
+}
+.secondTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  text-shadow: 3px 5px 9px #ff0000;
+  line-height: 84px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 2%;
+  letter-spacing: 0.01em;
+}
+.rolexText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(
+    120.8deg,
+    rgba(247, 145, 1, 0.8526) 29.41%,
+    rgba(247, 247, 247, 0.951634) 43.55%,
+    #d17109 68.52%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

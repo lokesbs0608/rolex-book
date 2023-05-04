@@ -1,0 +1,34 @@
+.TermCondition{
+    background: linear-gradient(
+        180deg,
+        rgb(10, 10, 10, 5) 8%,
+        rgb(240, 90, 90, 0.8) 100%
+      );
+      padding: 5%;
+}
+
+.termConditionTitle {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0;
+    color: white;
+  }
+  .termConditionHeaderTitle {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 0;
+    color: white;
+  }
+  .termConditionSubTitle {
+    font-size: 26px;
+    font-weight: 500;
+  
+    color: white;
+  }
+  .termConditionPara {
+    font-size: 22px;
+    font-weight: 500;
+  
+    color: white;
+  }
+  

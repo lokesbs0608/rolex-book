@@ -1,0 +1,109 @@
+.footerItem {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none !important;
+  color: white;
+}
+.footerItem:hover{
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0af;
+}
+.FooterDiv > .eightFooterDiv > a {
+    text-decoration: none;
+}
+.FooterDiv > .eightFooterDiv > a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.eightFooterDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.FooterDiv > .eightCompanyUrl > a > .enquiryText{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.FooterDiv > .eightCompanyUrl > a{
+    text-decoration: none;
+}
+.FooterDiv > .eightCompanyUrl > a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.FooterDiv{
+  background-color: black;
+}
+.eightMainDiv {
+    background-color: black;
+    padding: 0% 6% 0% 6%;
+  }
+  .eightLogoContainer {
+    display: flex;
+    padding-top: 2%;
+    gap: 70%;
+  }
+  .eightGetInText {
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 0;
+    color: white;
+    margin-top: 1.5%;
+  }
+  .eightrolexText {
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 54px;
+    background: -webkit-linear-gradient(
+      120.8deg,
+      rgba(247, 145, 1, 0.8526) 29.41%,
+      rgba(247, 247, 247, 0.951634) 43.55%,
+      #d17109 68.52%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .eightTittleDiv,
+  .getStartedDiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  .socialImg {
+    display: flex;
+    align-items: flex-end;
+  }
+  .eightTittleDiv > .eightinnerGitInTouchDiv > .enquiryText,
+  .eightMainDiv > .enquiryText {
+    margin-top: 1%;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .eightMainDiv > .eightWhatappDiv > .redWhatappText {
+    text-align: left;
+  }
+  .eightNumberDiv {
+    display: flex;
+    gap: 4%;
+    width: 60%;
+  }
+  .getStartedDiv {
+    margin-top: 3%;
+  }
+  .getStartedDiv > .phoneNumberConatiner {
+    width: 30%;
+  }
+  .eightMainLogo {
+    display: flex;
+    align-items: center;
+  }
+  .addressText{
+    display: flex;
+    gap: 2.3%;
+  }
+  .addressText > p {
+    margin-top: 1%;
+    text-align: left;
+  }

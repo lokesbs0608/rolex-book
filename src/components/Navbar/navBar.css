@@ -1,0 +1,106 @@
+.navSubContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.navDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainer,
+.logoContainerONe {
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainerONe {
+  position: relative;
+}
+
+.ballOne {
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  animation: moving 3s linear infinite;
+}
+
+@keyframes moving {
+  0% {
+    top: 15%;
+    left: 0%;
+  }
+
+  25% {
+    top: 15%;
+    left: 15%;
+
+  }
+
+  50% {
+    top: 15%;
+    left: 30%;
+
+  }
+
+  75% {
+    top: 15%;
+    left: 65%;
+
+  }
+
+  100% {
+    top: 15%;
+    left: 85%;
+
+  }
+
+}
+
+.navLink {
+  cursor: pointer;
+}
+
+.navItemsOne {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 33px;
+}
+
+.navItemsOne:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+  border-left: 4px solid red;
+  width: 100%;
+  padding-left: 10%;
+  border-radius: 3px;
+}
+
+.navSubDiv {
+  width: 14.5%;
+}
+
+.ballOne {
+  height: 20px;
+  border-radius: 50%;
+  width: 20px;
+  background: linear-gradient(0deg, #EDBF6A, #EDBF6A), #EDBF6A;
+  filter: blur(2px);
+}
+
+@media only screen and (max-width: 600px) {
+  .navSubContainer {
+    display: none;
+  }
+
+}

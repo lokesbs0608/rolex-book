@@ -1,0 +1,47 @@
+.sevethMainDiv {
+  background-image: url("../../Assets/Roleximage/lightRedScreen.png");
+}
+.seventhBannerText {
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 86px;
+  background: -webkit-linear-gradient(
+    120.8deg,
+    rgba(247, 145, 1, 0.8526) 29.41%,
+    rgba(247, 247, 247, 0.951634) 43.55%,
+    #d17109 68.52%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.seventhItems {
+  background: #101010;
+  width: 450px;
+  display: flex;
+  gap: 5%;
+  padding: 1%;
+  border-radius: 12px;
+  height: 350px;
+  margin-bottom: 8%;
+}
+.onLineText {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ff0000;
+}
+.sevenThItemText {
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+}
+.seventhMainItemsDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 6%;
+}
+.seventhDetail{
+    padding-top: 4%;
+}

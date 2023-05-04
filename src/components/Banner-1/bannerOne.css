@@ -1,0 +1,205 @@
+.imgContainer {
+  display: flex;
+  gap: 68%;
+}
+.bannerOneContainer {
+  position: relative;
+}
+.bottomCardContainer {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+.titleContainer {
+  background: #c3073f;
+  text-align: center;
+  padding: 10px 14px;
+
+}
+.subTitleTwo {
+  font-size: 8rem;
+  color: white;
+  margin-top: 13%;
+  text-shadow: 0px 9px 16px red;
+}
+.exchangeText {
+  position: absolute;
+  top: 14%;
+  left: 8%;
+}
+.sideShadowImg {
+  min-height: 10rem;
+}
+.ContainerOne {
+  position: absolute;
+  bottom: 0%;
+  left: 33%;
+  margin-top: 5rem;
+}
+.Containerthree {
+  position: absolute;
+  right: 1%;
+  z-index: 100;
+  bottom: 0%;
+}
+.Containertwo {
+  position: absolute;
+  bottom: 0%;
+  left: 43%;
+  z-index: 100;
+}
+.Containerfour {
+  position: absolute;
+  bottom: 0%;
+  left: 56%;
+}
+.subTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  line-height: 38px;
+  color: white;
+}
+.subTitleOne {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8rem;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  color: white;
+  line-height: 100px;
+  opacity: 0.16;
+  filter: blur(2.715px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.subTitleThree {
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 36px; */
+  font-size: 20px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  line-height: 38px;
+  text-align: center;
+  padding-top: 3%;
+  color: white;
+}
+.demoContainer {
+  width: 500px;
+  border-radius: 10px;
+  height: 68px;
+  box-shadow: 3px 0px 8px white;
+  border: 3px solid white;
+  position: absolute;
+  top: 60%;
+  left: 8%;
+}
+.demoDiv{
+  position: relative;
+}
+.demoBall{
+  height: 20px;
+  background-color: white;
+  width: 20px;
+  filter: blur(4px);
+  border-radius: 50%;
+  left: 20%;
+  position: absolute;
+}
+.exchangeBanner {
+  position: absolute;
+  top: 12%;
+  left: 8%;
+  margin-top: 3%;
+}
+.whatappImgContainerOne,
+.whatappImgContainer {
+  animation: whatapp-container 1s ease-in infinite;
+
+}
+.socialContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 60%;
+}
+@keyframes whatapp-container {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.whatappImgContainer {
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  z-index: 100; 
+}
+
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: visible;
+}
+
+.bottom-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  z-index: 1;
+}
+
+.top-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33.33%;
+  height: 100%;
+  object-fit: fill;
+  z-index: 2;
+  height: 100%;
+}
+
+.top-image:nth-of-type(1) {
+  left: 0;
+}
+
+.top-image:nth-of-type(2) {
+  left: 33.33%;
+}
+
+.top-image:nth-of-type(3) {
+  left: 66.66%;
+}
+
+@media only screen and (max-width: 600px) {
+  .block{
+    display: none;
+  }
+  .subTitleTwo{
+    font-size: 5rem;
+  }
+  .subTitleOne{
+    font-weight: 600;
+    font-size: 5rem;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    color: white;
+    line-height: 64px;
+    opacity: 0.16;
+    filter: blur(2.715px);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+}

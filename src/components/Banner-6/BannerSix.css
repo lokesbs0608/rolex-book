@@ -1,0 +1,114 @@
+.sixtMainDiv {
+  display: flex;
+  width: 100%;
+  background-image: url("../../Assets/Roleximage/lightRedScreen.png");
+  min-height: 45rem;
+}
+.sixFirstDiv {
+  width: 40%;
+}
+.sixSecondDiv {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.sixSecondInner {
+  background: #101010;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.8);
+  border-radius: 24px;
+  height: 90%;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 5%;
+  width: 80%;
+}
+.sixSecondInnerOne {
+  width: 80%;
+  position: absolute;
+  z-index: 100;
+}
+.sixKnowMoreDiv,
+.sixLogoDiv,
+.sideLineDiv,
+.upLineDiv {
+  position: absolute;
+}
+.sixItemDiv {
+  display: flex;
+  gap: 2%;
+  margin-bottom: 2%;
+  align-items: center;
+}
+.sixFirstDiv {
+  display: flex;
+  justify-content: center;
+}
+.sixhowText {
+  font-weight: 600;
+  font-size: 86px;
+  margin-bottom: 1%;
+  text-align: left;
+  padding-top: 5%;
+  color: white;
+}
+.sixFirstDiv > .sixFirsInnerDiv > .descriptionTextONe {
+  text-align: left;
+  margin-top: 1%;
+  padding-bottom: 9%;
+}
+.sixFirsInnerDiv {
+  width: 77%;
+}
+.sixWorksText {
+  font-weight: 600;
+  font-size: 86px;
+  margin-top: 0;
+  margin-bottom: 1%;
+  text-align: left;
+  color: red;
+}
+.sixMainItemDiv {
+  display: flex;
+  align-items: center;
+}
+
+.knowMoreWhatpp {
+  display: flex;
+  justify-content: center;
+}
+.sixSecondInner > .sixSecondInnerOne > .sixItemDiv > p {
+  margin-top: 0;
+}
+.sideLineDiv {
+  right: 7.5%;
+  top: 5%;
+}
+.sixKnowMoreDiv {
+  bottom: 10%;
+  z-index: 100;
+  right: 14%;
+}
+.sixLogoDiv {
+  top: 9%;
+  right: 10%;
+  z-index: 100;
+}
+.sideLineDiv > img {
+  height: 640px;
+}
+.upLineDiv > img {
+  height: 480px;
+}
+.upLineDiv {
+  top: 5%;
+  right: 8%;
+}
+.sixWhatappText {
+  font-weight: 700;
+  font-size: 50px;
+  margin-right: 2%;
+  text-align: center;
+  color: red;
+}
